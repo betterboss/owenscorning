@@ -1,0 +1,26 @@
+# Website Installation Instructions
+
+## Step 1 of 2 - Add Javascript
+
+Include this JavaScript in the `<body>` section of your website. We recommend placing it right before the final `</body>` tag.
+
+```html
+<script src="https://apis.owenscorning.com/client/widget.js" async></script>
+```
+
+## Step 2 of 2 - Add Widget Divs
+
+Once you have completed Step 1, you are all set to install the shingle widget on your website.
+
+Copy this `<div>` and place it in the corresponding location on your site where you would like the widget to appear.
+
+```html
+<div
+ class="oc_shingle_view"
+ data-shingle="trudefinition-duration"
+ data-view="house"
+ data-layout="row" 
+ data-style="default"
+>
+</div>
+```
